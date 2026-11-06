@@ -1,11 +1,10 @@
 var config = {
  url : {
-  configuration: 'standalone/dynmap_config.json?_={timestamp}',
-  update: 'standalone/dynmap_{world}.json?_={timestamp}',
-  sendmessage: 'standalone/sendmessage.php',
-  login: 'standalone/login.php',
-  register: 'standalone/register.php',
-  tiles: 'tiles/',
-  markers: 'tiles/'
- }
+    configuration: "standalone/dynmap_config.json",
+    update: "standalone/dynmap_world.json",
+    sendmessage: "standalone/sendmessage.json",
+    login: "standalone/login.json",
+    register: "standalone/register.json",
+    markers: "standalone/"
+}
 };
